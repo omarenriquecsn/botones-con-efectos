@@ -1,0 +1,40 @@
+.button{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: #eeeeee;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: 0px 5px;
+}
+.button:hover{
+    width: 230px;
+}
+.button:hover .icon{
+    background-color: purple;
+    color: white;
+}
+.icon{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    line-height: 75px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+.icon i{
+    font-size: 35px;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+}
+span{
+    font-size: 30px;
+    font-weight: 300;
+    width: 75px;
+    height: 75px;
+}
